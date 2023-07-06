@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     @objc func goToModal () {
         let vc = SecondViewController()
         self.present(vc, animated: true)
-        stackView.arrangedSubviews.forEach({ $0.backgroundColor = .systemGray2 })
+//        stackView.arrangedSubviews.forEach({ $0.backgroundColor = .systemGray2 })
     }
 }
 
